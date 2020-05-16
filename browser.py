@@ -74,6 +74,7 @@ phone.send_keys('0248134300')
 browser.execute_script("window.scrollTo(0, window.scrollY + 150)")
 browser.implicitly_wait(10)
 time.sleep(2)
+
 comments = browser.find_element_by_css_selector(
     '#mG61Hd > div > div > div.freebirdFormviewerViewItemList > div:nth-child(5) > div > div.quantumWizTextinputPapertextareaEl.modeLight.freebirdFormviewerViewItemsTextLongText.freebirdThemedInput > div.quantumWizTextinputPapertextareaMainContent.exportContent > div.quantumWizTextinputPapertextareaContentArea.exportContentArea > textarea')
 comments.send_keys('I will be very grateful to be selected to do my National Service at Stanbic Bank. ')
