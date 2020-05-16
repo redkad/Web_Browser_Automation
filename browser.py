@@ -79,6 +79,7 @@ comments = browser.find_element_by_css_selector(
 comments.send_keys('I will be very grateful to be selected to do my National Service at Stanbic Bank. ')
 browser.implicitly_wait(10)
 time.sleep(2)
+
 # submit = browser.find_element_by_css_selector('#mG61Hd > div > div > div.freebirdFormviewerViewNavigationNavControls > div.freebirdFormviewerViewNavigationButtonsAndProgress > div > div.appsMaterialWizButtonEl.appsMaterialWizButtonPaperbuttonEl.appsMaterialWizButtonPaperbuttonFilled.freebirdFormviewerViewNavigationSubmitButton.freebirdThemedFilledButtonM2 > span')
 # submit.click()
 browser.implicitly_wait(10)
