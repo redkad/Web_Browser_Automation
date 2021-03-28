@@ -12,7 +12,7 @@ elem = browser.find_element_by_css_selector('.isUndragged > span:nth-child(3) > 
 time.sleep(2)
 elem.click()
 elems = browser.find_element_by_css_selector('#identifierId' or '#Email')
-elems.send_keys('wautomations@gmail.com')
+elems.send_keys('example@gmail.com')
 
 next = browser.find_element_by_css_selector('.RveJvd')
 next.click()
@@ -21,7 +21,7 @@ browser.implicitly_wait(20)
 password = browser.find_element_by_css_selector(
     "#password > div.aCsJod.oJeWuf > div > div.Xb9hP > input" or '//*[@id="password"]')
 time.sleep(1)
-password.send_keys('automations101')
+password.send_keys('my_password')
 
 next2 = browser.find_element_by_css_selector('#passwordNext > span:nth-child(3) > span:nth-child(1)')
 next2.click()
@@ -46,7 +46,7 @@ browser.implicitly_wait(10)
 time.sleep(2)
 form_email = browser.find_element_by_css_selector(
     '#mG61Hd > div > div > div.freebirdFormviewerViewItemList > div:nth-child(3) > div > div.freebirdFormviewerViewItemsTextItemWrapper > div > div.quantumWizTextinputPaperinputMainContent.exportContent > div > div.quantumWizTextinputPaperinputInputArea > input')
-form_email.send_keys('collins.tenge@htu.edu.gh')
+form_email.send_keys('example@gmail.com')
 browser.implicitly_wait(10)
 time.sleep(2)
 next_button = browser.find_element_by_css_selector(
@@ -63,7 +63,7 @@ browser.implicitly_wait(10)
 time.sleep(2)
 address = browser.find_element_by_css_selector(
     '#mG61Hd > div > div > div.freebirdFormviewerViewItemList > div:nth-child(3) > div > div.quantumWizTextinputPapertextareaEl.modeLight.freebirdFormviewerViewItemsTextLongText.freebirdThemedInput > div.quantumWizTextinputPapertextareaMainContent.exportContent > div.quantumWizTextinputPapertextareaContentArea.exportContentArea > textarea')
-address.send_keys('P.O.Box HP 1516, Ho')
+address.send_keys('My_Address')
 
 browser.execute_script("window.scrollTo(0, window.scrollY + 150)")
 browser.implicitly_wait(10)
